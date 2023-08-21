@@ -42,4 +42,4 @@ That is the recommended process, but we are going to skip the *testing* branch a
 We created an *Operations* python branch by using the following code:
 > **git checkout -b Operations**
 
-![ITC TEC](/images/page_1.webp)
+
