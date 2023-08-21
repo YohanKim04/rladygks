@@ -42,9 +42,4 @@ That is the recommended process, but we are going to skip the *testing* branch a
 We created an *Operations* python branch by using the following code:
 > **git checkout -b Operations**
 
-After creating the branch and saving the changes, we got back to the main branch by using the following code
-> **git checkout main** and **git checkout name** name is the name of the branch wanting to move to.
 
-After adding and pushing the changes to the Operations branch, it is time to push the changes into the main branch. In order to do that a simple click is all that is needed.
-
-![ITC TEC](/images/page_1.webp)
