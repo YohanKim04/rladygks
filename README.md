@@ -39,4 +39,7 @@ With the information learned form the past 3 days, we were able to modify the RE
 We began to learn how various people can work at the same time in one project. 
 It's not recommended to work in the main branch and make the changes in different branches (*Development* and *Testing*), each with its respective function. The *development* branch is mostly used to make changes that you want to make in the main branch, the *testing* branch is used to test the changes made in the *development* branch, and finally, if the testing process was successful, you upload the changes directly to the main branch.
 That is the recommended process, but we are going to skip the *testing* branch and only focus on the *development* and main branch.
+We created an *Operations* python branch by using the following code:
+> **git checkout -b Operations**
+
 ![ITC TEC](/images/page_1.webp)
