@@ -42,4 +42,16 @@ That is the recommended process, but we are going to skip the *testing* branch a
 We created an *Operations* python branch by using the following code:
 > **git checkout -b Operations**
 
+After creating the branch and saving the changes, we got back to the main branch by using the following code
+> **git checkout main** and **git checkout name** name is the name of the branch wanting to move to.
 
+After adding and pushing the changes to the Operations branch, it is time to push the changes into the main branch. In order to do that a simple click is all that is needed.
+A click on a green button that says *pull request*.
+
+A new code was introduced that gets back all the changes made and deletes the remote branches that are not being used.
+>**git fetch --prune**
+
+And after using **git pull**, the branch that is not used is fully deleted.
+
+
+![ITC TEC](/images/page_1.webp)
