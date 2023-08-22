@@ -34,6 +34,8 @@ We dowloaded a program to keep coding and visualize the changes made in the READ
 In such program, we dowloaded the *Mardown preview* in order to be able to visualize the changes made in real time and how it is going to be seen. We also learned how to add images, links, and emojis to the README document using a cheat sheet from the [Markdown Guide](https://www.markdownguide.org).
 With the information learned form the past 3 days, we were able to modify the README document to our preference, allowing us to get a step closer to final objective of becoming an engineer in computer science. :computer:
 
+![ITC TEC](/images/page_1.webp)
+
 ####Week 2
 #####Day 4
 We began to learn how various people can work at the same time in one project. 
@@ -43,7 +45,7 @@ We created an *Operations* python branch by using the following code:
 > **git checkout -b Operations**
 
 After creating the branch and saving the changes, we got back to the main branch by using the following code
-> **git checkout main** and **git checkout name** name is the name of the branch wanting to move to.
+> **git checkout main** and **git checkout "name"**, name is the name of the branch wanting to move to.
 
 After adding and pushing the changes to the Operations branch, it is time to push the changes into the main branch. In order to do that a simple click is all that is needed.
 A click on a green button that says *pull request*.
@@ -53,5 +55,11 @@ A new code was introduced that gets back all the changes made and deletes the re
 
 And after using **git pull**, the branch that is not used is fully deleted.
 
+#####Day 5
+We officially began the process to work in teams. In order to do that, we had to make a collaboratory repository through settings.
+After sending or accepting the request, depends on your role, clone the repository into your files with *git clone*.
+Individually, we created a new branch with our student number and modified the document in it. After add, commit, and push process, the supervisor has to merge the pushed changes through the pull requests done by the other teammates.
+Due to the various changes made, a problem is going to happen when trying to merge. It is the supervisor's job to solve the problems when trying to merge.
+After solving the problems, the team members have to *git pull* the information to their computer.
 
-![ITC TEC](/images/page_1.webp)
+
