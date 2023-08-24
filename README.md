@@ -61,5 +61,5 @@ After sending or accepting the request, depends on your role, clone the reposito
 Individually, we created a new branch with our student number and modified the document in it. After add, commit, and push process, the supervisor has to merge the pushed changes through the pull requests done by the other teammates.
 Due to the various changes made, a problem is going to happen when trying to merge. It is the supervisor's job to solve the problems when trying to merge.
 After solving the problems, the team members have to *git pull* the information to their computer.
-
+With all the previously done process in mind, we had to create a python document each adding an equation to the document through a separate branch, and the supervisor merging them all together.
 
