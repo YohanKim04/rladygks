@@ -63,3 +63,10 @@ Due to the various changes made, a problem is going to happen when trying to mer
 After solving the problems, the team members have to *git pull* the information to their computer.
 With all the previously done process in mind, we had to create a python document each adding an equation to the document through a separate branch, and the supervisor merging them all together.
 
+#####Day 6
+We learned how to do the merging process directly from our computers instead of using **Github**. In order to do that, the team members have to make a change in their respective branches and create a pull request to the supervisor. The following code is going to be used by the supervisor in the terminal.
+>**git fetch --all**
+**git pull**
+
+After using *git pull*, it should say that it is already up to date. If it does, the next step is to write **git merge origin "name of the branch"** If there are no conflicts, the supervisor has to push the changes to the origin main with **git push -u origin main**
+It is also necessary to delete the branch the change was made on, in order to do this we have to use the following code. **git push origing -d "name of the branch"**
